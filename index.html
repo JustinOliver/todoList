@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Justinitsuj's Todo List</title>
+    <style>
+      .btn {
+        padding: 5px;
+        background-color: black;
+        border: 1px solid #666;
+        color: red;
+        text-decoration:none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Justinitsuj's Todo List</h1>
+    <h3>There is no database storage currently enabled, this is simply a toy for me to play with while I work on my web design skills.</h2>
+    <p>contact: justinitsuj1@gmail.com</p>
+    
+    <div>
+      <button class= "btn" onclick="handlers.addTodo()">Add</button>
+      <input id="addTodoTextInput" type="text" value="Todo text">
+    </div>
+    
+    <div>
+      <button class= "btn" onclick="handlers.changeTodo()">Change Todo</button>
+      <input id="changeTodoPositionInput" type="number" value="0">
+      <input id="changeTodoTextInput" type="text" value="Change text to...">
+    </div>
+    
+    <div>
+      <button class= "btn" onclick="handlers.toggleCompleted()">Toggle Completed</button>
+      <input id="toggleCompletedPositionInput" type="number" value=0>
+    </div>
+    
+    <ul>
+    </ul>
+    <script src="/script.js"></script>
+  </body>
+</html>
