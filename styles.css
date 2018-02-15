@@ -1,0 +1,27 @@
+html, body {
+	background-color: #004d99;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	padding: 15px;
+	border-radius: 8px;
+	border: 1px solid #666;
+}
+
+.btn {
+	padding: 15px;
+	background-color: black;
+	border: 1px solid #666;
+	color: white;
+	border-radius: 8px;
+}
+
+.button:hover {
+    background-color: white; 
+    color: #004d99;
+}

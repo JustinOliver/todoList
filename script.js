@@ -78,9 +78,9 @@ var view = {
       var todoTextWithCompletion = '';
       
       if (todo.completed === true) {
-        todoTextWithCompletion = '(x) ' + todo.todoText;
+        todoTextWithCompletion = '(Done) ' + todo.todoText;
       } else {
-        todoTextWithCompletion = '( ) ' + todo.todoText;
+        todoTextWithCompletion = '(Not Done) ' + todo.todoText;
       }
       
       todoLi.id = position;
