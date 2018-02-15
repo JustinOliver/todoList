@@ -80,7 +80,7 @@ var view = {
       if (todo.completed === true) {
         todoTextWithCompletion = '(Done) ' + todo.todoText;
       } else {
-        todoTextWithCompletion = '(Not Done) ' + todo.todoText;
+        todoTextWithCompletion = '(Todo) ' + todo.todoText;
       }
       
       todoLi.id = position;
