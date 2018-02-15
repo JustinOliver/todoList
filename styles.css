@@ -25,3 +25,11 @@ input {
     background-color: white; 
     color: #004d99;
 }
+
+.deleteButton{
+	background-color: black;
+	border: 1px solid #666;
+	color: white;
+	border-radius: 8px;
+	padding: 5px;
+}
